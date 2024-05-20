@@ -10,7 +10,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'div-1', url: 'https://github.com/mtofiq17/Petclinic-demo.git'
+                git branch: 'main', url: 'https://github.com/mtofiq17/Petclinic-demo.git'
             }
         }
         
@@ -24,8 +24,6 @@ pipeline {
             steps {
                 sh "mvn clean package -DskipTests=true"
             }
-        }
-        
         }
     }
 }
