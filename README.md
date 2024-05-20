@@ -1,24 +1,11 @@
-# Spring PetClinic Sample Application  
-# Modified By DevOps Shack  https://www.youtube.com/@devopsshack
-
-[![Java CI with Maven](https://github.com/spring-petclinic/spring-framework-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-petclinic/spring-framework-petclinic/actions/workflows/maven-build.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=alert_status)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=spring-petclinic_spring-framework-petclinic&metric=coverage)](https://sonarcloud.io/dashboard?id=spring-petclinic_spring-framework-petclinic)
-
-This project allows the Spring community to maintain a Petclinic version with a plain old **Spring Framework configuration**
-and with a **3-layer architecture** (i.e. presentation --> service --> repository).
-The "canonical" implementation is now based on Spring Boot, Thymeleaf and [aggregate-oriented domain]([https://github.com/spring-projects/spring-petclinic/pull/200). 
-
-
 ## Understanding the Spring Petclinic application with a few diagrams
 
-[See the presentation here](http://fr.slideshare.net/AntoineRey/spring-framework-petclinic-sample-application) (2017 update)
 
 ## Running petclinic locally
 
 ### With Maven command line
 ```
-git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
+git clone repo
 cd spring-framework-petclinic
 ./mvnw jetty:run-war
 # For Windows : ./mvnw.cmd jetty:run-war
@@ -121,7 +108,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
+git clone https://github.com/reop
 ```
 
 2) Inside Eclipse or STS
