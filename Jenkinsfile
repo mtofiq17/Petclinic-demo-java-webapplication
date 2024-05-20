@@ -25,14 +25,5 @@ pipeline {
                 sh "mvn clean package -DskipTests=true"
             }
         }
-
-        stage('Deploy') {
-            steps {
-                // Ensure the Jenkins user has sudo access without password for this command
-                script {
-                    sh "sudo cp target/*.war /opt/apache-tomcat-9.0.89/webapps"
-                }
-            }
-        }
     }
 }
