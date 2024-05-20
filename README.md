@@ -5,7 +5,7 @@
 
 ### With Maven command line
 ```
-git clone repo
+git clone repo](https://github.com/mtofiq17/Petclinic-demo.git
 cd spring-framework-petclinic
 ./mvnw jetty:run-war
 # For Windows : ./mvnw.cmd jetty:run-war
@@ -19,11 +19,6 @@ docker run -p 8080:8080 springcommunity/spring-framework-petclinic
 You can then access petclinic here: [http://localhost:8080/](http://localhost:8080/)
 
 <img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
-
-## In case you find a bug/suggested improvement for Spring Petclinic
-
-Our issue tracker is available here: https://github.com/spring-petclinic/spring-framework-petclinic/issues
-
 
 ## Database configuration
 
@@ -108,7 +103,7 @@ The following items should be installed in your system:
 
 1) On the command line
 ```
-git clone https://github.com/reop
+git clone repo](https://github.com/mtofiq17/Petclinic-demo.git
 ```
 
 2) Inside Eclipse or STS
