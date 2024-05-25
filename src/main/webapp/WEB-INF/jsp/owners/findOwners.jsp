@@ -7,7 +7,7 @@
 
 <petclinic:layout pageName="owners">
     <h1>Update version 2</h1>
-    <h2>Find Owners</h2>
+    <h2>Find Owners (v2)</h2>
 
     <spring:url value="/owners" var="formUrl"/>
     <form:form modelAttribute="owner" action="${fn:escapeXml(formUrl)}" method="get" class="form-horizontal"
