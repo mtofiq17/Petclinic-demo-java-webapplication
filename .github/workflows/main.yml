@@ -1,0 +1,23 @@
+name: Daily Random Contributions
+
+on:
+  schedule:
+    # Runs at random times (adjust as needed)
+    - cron: '0 0,6,12,18 * * *'  # Runs at 12 AM, 6 AM, 12 PM, and 6 PM UTC
+  workflow_dispatch:  # Allows manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate random commit
+        run: |
+          echo "$(date)" >> contributions.log
+          git config --local user.email "mtofiq17@gmail.com"
+          git config --local user.name "tofique"
+          git add contributions.log
+          git commit -m "Automated commit: $(date)"
+          git push
